@@ -15,7 +15,6 @@ public class AuthApiApplication {
     public static void main(String[] args)
     {
         ConfigurableApplicationContext context=SpringApplication.run(AuthApiApplication.class, args);
-
 //        System.out.println("Application started with context: " + context.getClass().getName());
 //        System.out.println("Expose AutowireCapableBeanFactory functionality for this context: " + context.getAutowireCapableBeanFactory().getClass().getName());
 //        System.out.println("Is this context a WebApplicationContext? " + (context instanceof WebApplicationContext));
